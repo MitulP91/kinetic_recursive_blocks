@@ -45,7 +45,7 @@ var app = {
 				var blob = new Kinetic.Blob({
 					points: points,
 					fill: app.colors[Math.floor(Math.random()*10)],
-					stroke: app.colors[Math.floor(Math.random()*10)],
+					stroke: 'white',
 					strokeWidth: 2,
 					tension: 0,
 					opacity: Math.random(),
